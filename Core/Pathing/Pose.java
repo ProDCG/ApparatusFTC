@@ -1,5 +1,3 @@
-package Java;
-
 public class Pose {
     public double x, y, heading;
 

@@ -1,5 +1,3 @@
-package Java;
-
 public class HermitePose {
     public double x, y;
     public Vector2D tangent;
