@@ -1,4 +1,4 @@
-package ApparatusCore.src.main.java.com.apparatuscore.Pathing;
+package com.apparatuscore.pathing;
 
 public class Spline {
     private Polynomial x, y;

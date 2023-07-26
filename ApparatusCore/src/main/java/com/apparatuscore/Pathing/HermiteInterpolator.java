@@ -1,8 +1,6 @@
-package ApparatusCore.src.main.java.com.apparatuscore.Pathing;
+package com.apparatuscore.pathing;
 
 import java.util.ArrayList;
-
-import org.ejml.simple.SimpleMatrix;
 
 public class HermiteInterpolator {
     private ArrayList<Spline> splines = new ArrayList<>();

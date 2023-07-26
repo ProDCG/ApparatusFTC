@@ -1,4 +1,4 @@
-package ApparatusCore.src.main.java.com.apparatuscore.Profiling;
+package com.apparatuscore.pathing;
 
 class MotionProfile {
 
