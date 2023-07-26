@@ -1,3 +1,5 @@
+package ApparatusCore.src.main.java.com.apparatuscore.Pathing;
+
 import java.util.ArrayList;
 
 public class HermitePath {

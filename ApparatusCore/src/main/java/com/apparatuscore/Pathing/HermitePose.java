@@ -1,3 +1,5 @@
+package ApparatusCore.src.main.java.com.apparatuscore.Pathing;
+
 public class HermitePose {
     public double x, y;
     public Vector2D tangent;

@@ -1,18 +1,16 @@
-package Core.Profiling;
+package ApparatusCore.src.main.java.com.apparatuscore.Profiling;
 
 class MotionConstraints {
-    double maxAcceleration;
-    double maxVelocity;
-    double maxDeceleration;
+    private double maxAcceleration;
+    private double maxVelocity;
+    private double maxDeceleration;
 
-    // Constructor
     public MotionConstraints(final double maxAcceleration, final double maxVelocity, final double maxDeceleration) {
         this.maxAcceleration = maxAcceleration;
         this.maxVelocity = maxVelocity;
         this.maxDeceleration = maxDeceleration;
     }
 
-    // Getter methods
     public double getMaxAcceleration() {
         return maxAcceleration;
     }

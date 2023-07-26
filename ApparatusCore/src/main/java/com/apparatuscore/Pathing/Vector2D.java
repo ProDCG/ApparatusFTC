@@ -1,3 +1,5 @@
+package ApparatusCore.src.main.java.com.apparatuscore.Pathing;
+
 public class Vector2D {
     public double x,y;
 

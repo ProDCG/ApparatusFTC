@@ -1,4 +1,4 @@
-package Java;
+package ApparatusCore.src.main.java.com.apparatuscore.Pathing;
 
 class Point {
     public double x, y;

@@ -1,4 +1,4 @@
-package Core.Profiling;
+package ApparatusCore.src.main.java.com.apparatuscore.Profiling;
 
 public class MotionState {
     private double position, velocity, acceleration;
