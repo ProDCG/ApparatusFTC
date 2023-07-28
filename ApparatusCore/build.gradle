@@ -38,7 +38,7 @@ publishing {
             artifactId = 'library'
             version = '1.0'
 
-            from components.java
+            // from components.java
         }
     }
 }
