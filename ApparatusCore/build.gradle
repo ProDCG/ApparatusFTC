@@ -36,7 +36,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.prodcg.apparatusftc'
             artifactId = 'library'
-            version = '0.0.2'
+            version = '1.0'
 
             from components.java
         }
