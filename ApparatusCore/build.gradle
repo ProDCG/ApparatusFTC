@@ -1,6 +1,6 @@
 plugins {
-    id 'com.android.library'
     id 'maven-publish'
+    id 'com.android.library'
 }
 
 repositories {
@@ -31,16 +31,14 @@ android {
     }
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            maven(MavenPublication) {
-                groupId = 'com.prodcg.apparatusftc'
-                artifactId = 'library'
-                version = '0.0.2'
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.prodcg.apparatusftc'
+            artifactId = 'library'
+            version = '0.0.2'
 
-                from components.java
-            }
+            from components.java
         }
     }
 }
